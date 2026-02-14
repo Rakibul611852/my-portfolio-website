@@ -21,6 +21,16 @@ body{
     border-radius: 5px;
     cursor: pointer; 
 }
+.button-02{
+    border: none;
+    align-items: center;
+    padding: 17px 35px 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer; 
+}
 .section-heading{
     max-width: 827px;
     text-align: center;
@@ -158,4 +168,71 @@ nav .nav-links a{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+#resume .resume-container{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.education-card{
+    display: flex;
+    margin-top: 113px;
+    gap: 30px;
+
+}
+
+.experience-hadding{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.h3-01{
+    font-size: 25px;
+    font-weight: 800;
+}
+.h3-02{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.p{
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 60px;
+}
+    
+
+.button-04{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 19px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-left: 370px;
+    margin-bottom: 113px;
+}
+
+
+
+
+.footer{
+ background-color: rgba(255, 248, 243, 1);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
 }
