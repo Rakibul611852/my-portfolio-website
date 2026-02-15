@@ -232,7 +232,46 @@ nav .nav-links a{
  background-color: rgba(255, 248, 243, 1);
 }
 
-.footer-content{
+
+.footer-main{
     display: flex;
     justify-content: space-between;
+}
+
+.message-section{
+    margin-top: 138px;
+    margin-bottom: 122px;
+    /* margin-right: 170px; */
+}
+.footer-p{
+    margin-top: 200px;
+    margin-bottom: 30px;
+    color: #757575;
+    line-height: 28px;
+}
+
+.icon{
+    margin-left: 30px;
+}
+
+.footer-heading{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.form{
+    width: 461px;
+    height: 64px;
+    padding-left: 30px;
+    border: none;
+}
+
+#message{
+    width: 461px;
+    height: 180px;
+    padding: 18px 30px;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 24px;
+    border: none;
 }
